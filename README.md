@@ -5,7 +5,7 @@ Simple script to search the accompanying `GUTINDEX.ALL` file by e-text number, t
 ## Usage
 
 - From the command line, run:  
-`python search {mode: etext/title/author} {search parameter}`
+`python search.py {mode: etext/title/author} {search parameter}`
 
 ## Known bugs
 
@@ -14,4 +14,3 @@ Simple script to search the accompanying `GUTINDEX.ALL` file by e-text number, t
 - When searching by title, if the title spans more than one line, the search fails.
 
 - When searching by author, if the author's full name breaks into a new line, or it is not the first name in a list of authors' names, the search fails.
-

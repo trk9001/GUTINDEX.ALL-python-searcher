@@ -4,7 +4,7 @@ Usage:
 ------
 
 > From the command line, run:
-`python search {mode: etext/title/author} {search parameter}`
+`python search.py {mode: etext/title/author} {search parameter}`
 
 
 Known bugs:
