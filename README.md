@@ -2,6 +2,11 @@
 
 Simple script to search the accompanying `GUTINDEX.ALL` file by e-text number, title or author. This file is a publicly available, plain text compilation of e-books served by *Project Gutenberg*.
 
+## Usage
+
+- From the command line, run:  
+`python search {mode: etext/title/author} {search parameter}`
+
 ## Known bugs
 
 - If there are less than 2 spaces before the e-text number, the search fails. This is in relation to the fact that some entries in the file end with a number (eg. "... Vol. 2"), and there is no other (known) way to differentiate an e-text number from that one.

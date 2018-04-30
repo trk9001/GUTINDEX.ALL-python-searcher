@@ -1,4 +1,11 @@
-"""Script to search the GUTINDEX file by e-text no., title or author.
+"""Script to search the GUTINDEX file by e-text number, title or author.
+
+Usage:
+------
+
+> From the command line, run:
+`python search {mode: etext/title/author} {search parameter}`
+
 
 Known bugs:
 -----------
