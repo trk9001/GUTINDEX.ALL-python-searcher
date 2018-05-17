@@ -1,6 +1,8 @@
 # GUTINDEX Searcher with Python
 
-Simple script to search the accompanying `GUTINDEX.ALL` file by e-text number, title or author. This file is a publicly available, plain text compilation of e-books served by *Project Gutenberg*.
+Simple script to search the accompanying `GUTINDEX.ALL` file by e-text number, title or author. This file is a publicly available, plain text compilation of e-books served by *Project Gutenberg*. Links to the latest version can be found at:
+
+[Project Gutenberg's Offline Catalogs](https://www.gutenberg.org/wiki/Gutenberg:Offline_Catalogs)
 
 ## Usage
 
