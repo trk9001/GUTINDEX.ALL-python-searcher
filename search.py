@@ -33,7 +33,7 @@ def search_by_etext_no(file_to_search, eno):
     eno_ex = re.compile('^((.)*)(\s){{2,}}\\b{}\\b$'.format(eno))
     reg = re.compile(r'^(.)*(\s){2,}\b(\d)+(C)?\b$')
 
-    with open(file_to_search) as f:
+    with open(file_to_search, encoding='utf-8') as f:
         for line in f:
             match = eno_ex.match(line)
 
@@ -55,7 +55,7 @@ def search_by_title(file_to_search, title):
 
     reg = re.compile(r'(.)*(\s){2,}\b(\d)+(C)?\b$')
 
-    with open(file_to_search) as f:
+    with open(file_to_search, encoding='utf-8') as f:
         for line in f:
             match = reg.match(line)
 
@@ -83,7 +83,7 @@ def search_by_author(file_to_search, author):
 
     data = list()
 
-    with open(file_to_search) as f:
+    with open(file_to_search, encoding='utf-8') as f:
         line = f.readline()
 
         while line != '':
